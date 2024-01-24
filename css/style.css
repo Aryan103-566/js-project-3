@@ -1,0 +1,91 @@
+/** COMMON CSS STARTS HERE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "arial";
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+/** COMMON CSS ENDS HERE */
+
+/** COUNTER STARTS HERE */
+#counterArea,
+#counterArea .row{
+    height: 100vh;
+}
+.wrapper{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.wrapper .counter{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    border-radius: 10px;
+}
+/** COUNTER ENDS HERE */
+
+
+.backToTop{
+    cursor: pointer;
+    background-image: conic-gradient(black 0% 0%,white 0% 0% );
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backToTop span{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    font-size: 40px;
+    border-radius: 50%;
+    display: block;
+}
+#counterWrapper{
+    padding: 200px 0;
+}
+.counter{
+    min-width: 80px;
+    height: 80px;
+    background-color: black;
+    margin: 0 45px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    color: white;
+}
